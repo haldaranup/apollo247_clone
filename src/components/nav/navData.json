@@ -1,0 +1,24 @@
+{
+    "links":[
+        {
+            "head": "DOCTORS",
+            "paraOne": "Consult",
+            "paraTwo": "Online"
+        },
+        {
+            "head": "PHARMACY",
+            "paraOne": "Medicine &",
+            "paraTwo": "Other Products"
+        },
+        {
+            "head": "LAB TESTS",
+            "paraOne": "Health",
+            "paraTwo": "Check-ups"
+        },
+        {
+            "head": "CIRCLE",
+            "paraOne": "Free Delivery &",
+            "paraTwo": "Cashbacks"
+        }
+    ]
+}
