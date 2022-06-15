@@ -1,91 +1,87 @@
 @import "../../../global.scss";
 
-.bodyContainer{
-    height: 60vh;
-    display: flex;
-    justify-content: space-between;
+.bodyContainer {
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  // border: 1px solid red;
+  .leftBody {
+    height: 95%;
+    width: 32%;
     // border: 1px solid red;
-    .leftBody{
-        height: 95%;
-        width: 32%;
-        // border: 1px solid red;
-        margin: 0 0 0 4%;
-        color: white;
+    margin: 0 0 0 4%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .topBody {
+      height: 40%;
+      // border: 1px solid red;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      h1 {
+        color: $mainColor;
+        font-size: 3.2rem;
+        font-weight: 700;
+      }
+      p {
+        color: $mainLightColor;
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+    }
+    .midBody {
+      height: 32%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      // border: 1px solid red;
+      .box {
+        width: 350px;
+        height: 60px;
+        @include flex($justify: space-around);
+
+        div {
+          .cartoonImg {
+            height: 40px;
+          }
+        }
+      }
+    }
+    .bottomBody {
+      height: 56px;
+      display: flex;
+      justify-content: space-between;
+
+      .bottomContent {
+        width: 47%;
+        border-radius: 10px;
         display: flex;
-        flex-direction: column;
         justify-content: space-evenly;
-        
-        .topBody{
-            height: 40%;
-            // border: 1px solid red;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            h1{
-                color: $mainColor;
-                font-size: 3.2rem;
-                font-weight: 700;
-            }
-            p{
-                color: $mainLightColor;
-                font-size: .85rem;
-                font-weight: 600;
-                letter-spacing: 1px;
-
-            }
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        // border: 1px solid red;
+        div {
+          // border: 1px solid red;
+          p {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: $mainColor;
+          }
         }
-        .midBody{
-            height: 32%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            // border: 1px solid red;
-            .box{
-                width: 350px;
-                height: 60px;
-                @include flex($justify: space-around);
-                
-
-                div{
-                      .cartoonImg{
-                        height: 40px;
-                      }  
-                    
-                }
-            }
-        }
-        .bottomBody{
-            height: 56px;
-            display: flex;
-            justify-content: space-between;
-            
-            .bottomContent{
-                width: 47%;
-                border-radius: 10px;
-                display: flex;
-                justify-content: space-evenly;
-                align-items: center;
-                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-                // border: 1px solid red;
-                div{
-                    // border: 1px solid red;
-                    p{
-                        font-size: .75rem;
-                        font-weight: 600;
-                        color: $mainColor;
-                    }
-                }
-            }
-        }
+      }
     }
+  }
 
-    .docImg{
-        .imgLink{
-            img{
-                // border: 1px solid red;
-                margin: 11% 0 0 0;
-            }
-            
-        }
+  .docImg {
+    .imgLink {
+      img {
+        // border: 1px solid red;
+        margin: 11% 0 0 0;
+      }
     }
+  }
 }

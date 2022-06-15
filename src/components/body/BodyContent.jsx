@@ -15,18 +15,29 @@ const BodyContent = () => {
 
         <div className="midBody">
           <div>
-            <BoxContent img={"https://newassets.apollo247.com/images/ic-doctor.svg"} text={"Book Appoinments with Apollo Doctors"} />
+            <BoxContent
+              img={"https://newassets.apollo247.com/images/ic-doctor.svg"}
+              text={"Book Appoinments with Apollo Doctors"}
+            />
           </div>
 
           <div>
-            <BoxContent img={"https://newassets.apollo247.com/images/ic_medicines.png"} text={"Buy Medicines and Essentials"} />
+            <BoxContent
+              img={"https://newassets.apollo247.com/images/ic_medicines.png"}
+              text={"Buy Medicines and Essentials"}
+            />
           </div>
         </div>
 
         <div className="bottomBody">
-          <SmallBox img= {"https://newassets.apollo247.com/images/ic_home_test.svg"} text={"Book Lab Tests"} />
-          <SmallBox img= {"https://newassets.apollo247.com/images/ic-prescription.svg"} text={"View Health Records"} />
-
+          <SmallBox
+            img={"https://newassets.apollo247.com/images/ic_home_test.svg"}
+            text={"Book Lab Tests"}
+          />
+          <SmallBox
+            img={"https://newassets.apollo247.com/images/ic-prescription.svg"}
+            text={"View Health Records"}
+          />
         </div>
       </div>
 
