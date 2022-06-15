@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./bodyContent.scss";
-import { Box } from "@chakra-ui/react";
+
+import BoxContent from "./BoxContent";
+import SmallBox from "./SmallBox";
 const BodyContent = () => {
   return (
     <div className="bodyContainer">
@@ -13,49 +15,19 @@ const BodyContent = () => {
 
         <div className="midBody">
           <div>
-            <Box className="box"
-            borderRadius={"10px"}
-              w="100%"
-              h="50px"
-              bgGradient="linear(to-l, #68dadc, #19526c)"
-            >
-                <div>
-                    <Link to={"google.com"}>
-                    <img src="https://newassets.apollo247.com/images/ic-doctor.svg" alt="" />
-                    </Link>
-                </div>
-                <div>
-                    <p>Book Appoinments with Apollo Doctors</p>
-                </div>
-                <div>
-                    <img src="https://newassets.apollo247.com/images/ic_arrow_right_white.svg" alt="" />
-                </div>
-            </Box>
+            <BoxContent img={"https://newassets.apollo247.com/images/ic-doctor.svg"} text={"Book Appoinments with Apollo Doctors"} />
           </div>
 
           <div>
-          <Box className="box"
-            borderRadius={"10px"}
-              w="100%"
-              h="50px"
-              bgGradient="linear(to-l, #68dadc, #19526c)"
-            >
-                <div>
-                    <Link to={"google.com"}>
-                    <img src="https://newassets.apollo247.com/images/ic-doctor.svg" alt="" />
-                    </Link>
-                </div>
-                <div>
-                    <p>Book Appoinments with Apollo Doctors</p>
-                </div>
-                <div>
-                    <img src="https://newassets.apollo247.com/images/ic_arrow_right_white.svg" alt="" />
-                </div>
-            </Box>
+            <BoxContent img={"https://newassets.apollo247.com/images/ic_medicines.png"} text={"Buy Medicines and Essentials"} />
           </div>
         </div>
 
-        <div></div>
+        <div className="bottomBody">
+          <SmallBox img= {"https://newassets.apollo247.com/images/ic_home_test.svg"} text={"Book Lab Tests"} />
+          <SmallBox img= {"https://newassets.apollo247.com/images/ic-prescription.svg"} text={"View Health Records"} />
+
+        </div>
       </div>
 
       <div className="docImg">
