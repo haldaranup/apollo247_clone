@@ -41,7 +41,7 @@
             justify-content: space-between;
             // border: 1px solid red;
             .box{
-                width: 340px;
+                width: 350px;
                 height: 60px;
                 @include flex($justify: space-around);
                 
