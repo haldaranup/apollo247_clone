@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { links } from "./navData.json";
+import { links } from "./navData.json";
 import "./navbar.scss";
 import { MdShoppingCart } from "react-icons/md";
 import { FaUserCircle } from "react-icons/fa";
@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
 
         <div className="right">
-          {/* <div className="links">
+          <div className="links">
             {links.map((i) => {
               return (
                 <div>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 </div>
               );
             })}
-          </div> */}
+          </div>
 
           <div className="navIcons">
             <div>
