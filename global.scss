@@ -4,3 +4,14 @@
     box-sizing: border-box;
     font-family: "IBM Plex Sans", sans-serif;;
 }
+
+$mainColor: #02475b;
+$mainLightColor: #549fb4;
+
+
+@mixin flex($justify: space-between, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    
+  }
