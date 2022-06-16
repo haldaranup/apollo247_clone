@@ -1,5 +1,15 @@
-.proHealth{
+.mainProHealth {
+    height: 28vh;
+    background-color: #eaece7;
+
+  .proHealth {
     width: 90%;
-    // border: 1px solid red;
     margin: auto;
+    .proImgLink {
+      img {
+        border-radius: 5px;
+    }
+  }
+
+  }
 }

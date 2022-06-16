@@ -1,0 +1,25 @@
+.mainAbout{
+    .aboutApollo{
+        width: 90%;
+        margin: 40px auto;
+        div{
+            h6{
+                font-weight: 600;
+                color: #02475c;
+            }
+            p{
+                font-size: .9rem;
+                color: #0a4355;
+                margin-bottom: 40px;
+            }
+            ul{
+                margin-left: 40px;
+                li{
+                    font-size: .9rem;
+                    color: #0a4355;
+                }
+            }
+        }
+    }
+
+}

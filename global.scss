@@ -8,6 +8,7 @@
 $mainColor: #02475b;
 $mainLightColor: #449bb3;
 $dimBoxShadow: rgba(15, 14, 14, 0.35) 0px 5px 15px;;
+$lightBg: #eaece7;
 
 @mixin flex($justify: space-between, $direction: row, $align: center) {
     display: flex;
