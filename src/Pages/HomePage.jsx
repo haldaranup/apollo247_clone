@@ -1,6 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import BodyContent from "../components/body/BodyContent";
+import ContactLogo from "../components/body/ContactLogo";
+import CovidCard from "../components/body/covidCard/CovidCard";
+import ProHealthCard from "../components/body/ProHealthCard";
 import SlideShow from "../components/body/slideShow/SlideShow";
 import Navbar from "../components/nav/Navbar";
 import "./homepage.scss";
@@ -9,15 +12,12 @@ const Home = () => {
   return (
     <div className="container">
       <div className="main">
-        <Link className="contactLogo" to={"google.com"}>
-          <img
-            src="https://newassets.apollo247.com/images/ic-mascot.png"
-            alt=""
-          />
-        </Link>
+        <ContactLogo />
         <Navbar />
         <BodyContent />
         <SlideShow />
+        <CovidCard />
+        <ProHealthCard />
       </div>
     </div>
   );

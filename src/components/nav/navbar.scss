@@ -1,9 +1,13 @@
 @import "../../../global.scss";
 .navbar {
   height: 12vh;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   box-shadow: rgba(127, 115, 115, 0.45) 0px 15px 10px -15px;
+  background-color: #fff;
+  position: fixed;
+  margin-top: -12vh;
   .left {
     // border: 1px solid black;
     .apolloLogo {

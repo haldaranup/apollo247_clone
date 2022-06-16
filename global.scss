@@ -7,11 +7,11 @@
 
 $mainColor: #02475b;
 $mainLightColor: #449bb3;
+$dimBoxShadow: rgba(15, 14, 14, 0.35) 0px 5px 15px;;
 
-
-@mixin flex($justify: space-between, $align: center) {
+@mixin flex($justify: space-between, $direction: row, $align: center) {
     display: flex;
+    flex-direction: $direction;
     justify-content: $justify;
     align-items: $align;
-    
   }

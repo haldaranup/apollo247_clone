@@ -1,18 +1,11 @@
 @import "../../global.scss";
 .container {
-  background-color: #dcdfce;
   .main {
-    background-color: #fff;
     width: 1050px;
     margin: auto;
-    // border: 1px solid red;
-    .contactLogo {
-      position: fixed;
-      right: 1vw;
-      top: 90vh;
-      img {
-        width: 70px;
-      }
+    .bodyContainer{
+      // border: 1px solid green;
+      margin-top: 12vh;
     }
   }
 }

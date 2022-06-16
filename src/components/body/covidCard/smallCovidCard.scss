@@ -1,0 +1,19 @@
+@import "../../../../global.scss";
+
+.smallCovidCard{
+    box-shadow: $dimBoxShadow;
+    width: 200px;
+    height: 45px;
+    border-radius: 8px;
+    @include flex($justify: space-evenly);
+    .covidCardIcons{
+        color: #fd953a;
+    }
+    div{
+        p{
+            color: #fd953a;
+            font-size: .8rem;
+            font-weight: 600; 
+        }
+    }
+}
