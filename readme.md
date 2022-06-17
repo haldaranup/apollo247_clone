@@ -5,7 +5,7 @@ Cloning the Apollo247 website for the construct week project. Apollo 247 is the 
 # Adidas
 
 
-![Adidas]()
+![Apollo247]()
 
 
 ## Run Locally :-
