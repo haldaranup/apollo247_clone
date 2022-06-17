@@ -1,0 +1,27 @@
+.mainFooter{
+    height: 1200px;
+    // border: 1px solid green;
+    background-color: #020d11;
+    .footerLogo{
+        width: 100%;
+        
+        // border: 1px solid red;
+        .footerLogoLink{
+            img{
+                height: 80px;
+                margin: auto;
+            }
+
+        }
+    }
+    .footerText{
+        div{
+            ul{
+                display: inline;
+                li{
+                    display: inline;
+                }
+            }
+        }
+    }
+}

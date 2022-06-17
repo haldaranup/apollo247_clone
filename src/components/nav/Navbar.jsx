@@ -8,7 +8,7 @@ import WalkthroughPopover from "./Login";
 
 const Navbar = () => {
   return (
-    <>
+    <div className="navContainer">
       <nav className="navbar">
         <div className="left">
           <Link to="/" className="apolloLogo">
@@ -41,14 +41,14 @@ const Navbar = () => {
                 <MdShoppingCart size={"1.5rem"} />
               </Link>
             </div>
-            
+
             <div>
               <WalkthroughPopover />
             </div>
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 

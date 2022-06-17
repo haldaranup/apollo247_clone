@@ -1,63 +1,72 @@
 @import "../../../global.scss";
-.navbar {
-  height: 12vh;
-  width: 70%;
-  display: flex;
-  justify-content: space-between;
-  box-shadow: rgba(127, 115, 115, 0.45) 0px 15px 10px -15px;
-  background-color: #fff;
-  position: fixed;
-  margin-top: -12vh;
-  z-index: 300;
-  .left {
-    // border: 1px solid black;
-    .apolloLogo {
-      img {
-        // border: 1px solid red;
-        height: 12vh;
-        padding: 1rem;
+
+.navContainer {
+  // border: 1px solid red;
+  // height: 12vh;
+
+  width: 100vw;
+  background-color: rgb(197, 64, 64);
+  .navbar {
+    height: 12vh;
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(127, 115, 115, 0.45) 0px 15px 10px -15px;
+    background-color: #fff;
+    position: fixed;
+    margin-top: -12vh;
+    z-index: 10;
+    // border: 1px solid green;
+    .left {
+      // border: 1px solid black;
+      .apolloLogo {
+        img {
+          // border: 1px solid red;
+          height: 12vh;
+          padding: 1rem;
+        }
       }
     }
-  }
-  .right {
-    display: flex;
-    // border: 1px solid green;
-    width: 52%;
-    justify-content: space-between;
+    .right {
+      display: flex;
+      // border: 1px solid green;
+      width: 52%;
+      justify-content: space-between;
 
-    .links {
-      width: 80%;
-      @include flex($justify: space-around);
-      color: $mainColor;
-      div {
-        line-height: 1.25rem;
-        .navLinks {
-          text-decoration: none;
-          h5 {
-            color: $mainColor;
+      .links {
+        width: 80%;
+        @include flex($justify: space-around);
+        color: $mainColor;
+        div {
+          line-height: 1.25rem;
+          .navLinks {
+            text-decoration: none;
+            h5 {
+              color: $mainColor;
+              font-size: 0.75rem;
+              font-weight: 600;
+            }
+          }
+          p {
             font-size: 0.75rem;
             font-weight: 600;
+            color: $mainLightColor;
+          }
+          .line {
+            height: 0.8px;
+            background-color: #000000;
+            // border: 1px solid green;
           }
         }
-        p {
-          font-size: 0.75rem;
-          font-weight: 600;
-          color: $mainLightColor;
-        }
-        .line {
-          height: 0.8px;
-          background-color: #000000;
-          // border: 1px solid green;
-        }
       }
-    }
-    //   color: #02475b;
-    .navIcons {
-      width: 20%;
-      @include flex($justify: space-around);
+      //   color: #02475b;
+      .navIcons {
+        width: 20%;
+        @include flex($justify: space-around);
 
-      div {
-        color: $mainColor;
+        div {
+          color: $mainColor;
+        }
       }
     }
   }
