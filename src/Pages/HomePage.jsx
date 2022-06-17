@@ -7,6 +7,7 @@ import CovidCard from "../components/body/covidCard/CovidCard";
 import ProHealthCard from "../components/body/ProHealthCard";
 import Resources from "../components/body/Resources";
 import SlideShow from "../components/body/slideShow/SlideShow";
+import Space from "../components/body/Space";
 import Navbar from "../components/nav/Navbar";
 import "./homepage.scss";
 
@@ -16,6 +17,7 @@ const Home = () => {
       <div className="main">
         <ContactLogo />
         <Navbar />
+        <Space />
         <BodyContent />
         <SlideShow />
         <CovidCard />

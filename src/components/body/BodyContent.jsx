@@ -7,6 +7,7 @@ import SmallBox from "./SmallBox";
 const BodyContent = () => {
   return (
     <div className="bodyContainer">
+      
       <div className="leftBody">
         <div className="topBody">
           <h1>Hello There!</h1>
