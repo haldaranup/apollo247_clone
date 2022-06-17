@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.scss";
 import { Link } from "@chakra-ui/react";
+import FooterText from "./FooterText"
 const Footer = () => {
   return (
     <div className="mainFooter">
@@ -13,25 +14,14 @@ const Footer = () => {
         </Link>
       </div>
 
-      <div className="footerText">
-        <div>
-          <h4>About Apollo 247</h4>
-          <ul>
-            <li>About Us</li>
-            <li>About Us</li>
-            <li>About Us</li>
-            <li>About Us</li>
-            <li>About Us</li>
-            <li>About Us</li>
-            <li>About Us</li>
-            <li>About Us</li>
-            <li>About Us</li>
-            <li>About Us</li>
-            <li>About Us</li>
-            <li>About Us</li>
-          </ul>
-        </div>
-      </div>
+      <FooterText />
+      <FooterText />
+      <FooterText />
+      <FooterText />
+      <FooterText />
+      <FooterText />
+      <FooterText />
+      <FooterText />
     </div>
   );
 };
