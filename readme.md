@@ -1,4 +1,4 @@
-# Welcome :wave:
+
 
 # Apollo247-clone
 Cloning the Apollo247 website for the construct week project. Apollo 247 is the digital business unit of Apollo Hospitals. Apollo 247 helps individuals get treated from Apollo certified doctors. The mobile app has features like E- consultation, online pharmacy, home diagnostic test and digital vault where users can upload all their medical history.
