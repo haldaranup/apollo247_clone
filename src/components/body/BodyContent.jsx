@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Home from "../../Pages/HomePage";
 import "./bodyContent.scss";
 
 import BoxContent from "./BoxContent";
@@ -43,7 +44,7 @@ const BodyContent = () => {
       </div>
 
       <div className="docImg">
-        <Link className="imgLink" to={"google.com"}>
+        <Link className="imgLink" to={<Home />}>
           <img
             src="https://newassets.apollo247.com/images/img-doctors@1x.jpg"
             alt=""
