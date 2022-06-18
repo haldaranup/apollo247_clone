@@ -30,5 +30,3 @@ git clone https://github.com/haldaranup/apollo247-clone.git
 ![Paytm-mall]()
 ![items]()
 
-## For more details, here is our blog
-[Blog]()
