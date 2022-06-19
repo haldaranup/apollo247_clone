@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Home from "../../../Pages/HomePage";
 import "./slideShow.scss";
 
 const images = [
@@ -47,7 +48,7 @@ const SlideShow = () => {
         >
           {images.map((image, index) => (
             <div className="slide" key={index}>
-              <Link className="slideLink" to={"google.com"}>
+              <Link className="slideLink" to={<Home />}>
                 <img className="slideImg" src={image} alt="" />
               </Link>
             </div>

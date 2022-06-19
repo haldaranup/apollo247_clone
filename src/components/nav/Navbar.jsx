@@ -24,7 +24,7 @@ const Navbar = () => {
             {links.map((i) => {
               return (
                 <div>
-                  <Link to={"google.com"} className="navLinks">
+                  <Link to={"/"} className="navLinks">
                     <h5>{i.head}</h5>
                     <div className="line"></div>
                     <p>{i.paraOne}</p>
@@ -37,7 +37,7 @@ const Navbar = () => {
 
           <div className="navIcons">
             <div>
-              <Link to={"google.com"}>
+              <Link to={"/"}>
                 <MdShoppingCart size={"1.5rem"} />
               </Link>
             </div>

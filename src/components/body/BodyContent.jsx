@@ -7,7 +7,6 @@ import SmallBox from "./SmallBox";
 const BodyContent = () => {
   return (
     <div className="bodyContainer">
-      
       <div className="leftBody">
         <div className="topBody">
           <h1>Hello There!</h1>
@@ -23,10 +22,12 @@ const BodyContent = () => {
           </div>
 
           <div>
-            <BoxContent
-              img={"https://newassets.apollo247.com/images/ic_medicines.png"}
-              text={"Buy Medicines and Essentials"}
-            />
+            <Link to={"/pharmacy"}>
+              <BoxContent
+                img={"https://newassets.apollo247.com/images/ic_medicines.png"}
+                text={"Buy Medicines and Essentials"}
+              />
+            </Link>
           </div>
         </div>
 
@@ -43,7 +44,7 @@ const BodyContent = () => {
       </div>
 
       <div className="docImg">
-        <Link className="imgLink" to={"google.com"}>
+        <Link className="imgLink" to={"/"}>
           <img
             src="https://newassets.apollo247.com/images/img-doctors@1x.jpg"
             alt=""

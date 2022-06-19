@@ -1,11 +1,9 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
 
 const BoxContent = ({ img, text }) => {
   return (
     <>
-      <Link to={"google.com"}>
         <Box
           className="box"
           borderRadius={"10px"}
@@ -26,7 +24,7 @@ const BoxContent = ({ img, text }) => {
             />
           </div>
         </Box>
-      </Link>
+
     </>
   );
 };

@@ -9,7 +9,7 @@ import {
   PopoverContent,
   PopoverCloseButton,
   PopoverBody,
-  Box,
+  Input,
   Button,
 } from "@chakra-ui/react";
 import { FaUserCircle } from "react-icons/fa";
@@ -17,6 +17,9 @@ import "./login.scss";
 
 function WalkthroughPopover() {
   const initialFocusRef = React.useRef();
+  const sendOtp = ()=>{
+    alert("OTP sent Successfully!")
+  }
   return (
     <Popover
       initialFocusRef={initialFocusRef}
@@ -28,14 +31,12 @@ function WalkthroughPopover() {
       </PopoverTrigger>
       <PopoverContent color="white" bg="blue.800" borderColor="blue.800">
         <PopoverHeader pt={4} fontWeight="bold" border="0">
-          Manage Your Channels
+          <h2 style={{ fontSize: "2rem" }}>Hi,</h2>
+          <p>Please enter your mobile number to login</p>
         </PopoverHeader>
         <PopoverArrow />
         <PopoverCloseButton />
-        <PopoverBody>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore.
-        </PopoverBody>
+        <PopoverBody></PopoverBody>
         <PopoverFooter
           border="0"
           display="flex"
@@ -43,12 +44,9 @@ function WalkthroughPopover() {
           justifyContent="space-between"
           pb={4}
         >
-          <Box fontSize="sm">Step 2 of 4</Box>
+          <Input placeholder="Phone" />
           <ButtonGroup size="sm">
-            <Button colorScheme="green">Setup Email</Button>
-            <Button colorScheme="blue" ref={initialFocusRef}>
-              Next
-            </Button>
+            <Button colorScheme="green" onClick={sendOtp}>Send OTP</Button>
           </ButtonGroup>
         </PopoverFooter>
       </PopoverContent>
