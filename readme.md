@@ -5,7 +5,7 @@ Cloning the Apollo247 website for the construct week project. Apollo 247 is the 
 # Apollo
 
 
-![Apollo247]()
+![Apollo247](/assets/homeTop.png)
 
 
 ## Run Locally :-
@@ -27,6 +27,6 @@ git clone https://github.com/haldaranup/apollo247-clone.git
 
 
 ## Screenshots :- 
-![Apollo]()
-![items]()
+![Apollo](/assets/homeMid.png)
+![items](/assets/product.png)
 
