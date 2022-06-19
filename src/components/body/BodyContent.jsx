@@ -44,7 +44,10 @@ const BodyContent = () => {
       </div>
 
       <div className="docImg">
+
         <Link className="imgLink" to={"/"}>
+
+
           <img
             src="https://newassets.apollo247.com/images/img-doctors@1x.jpg"
             alt=""
