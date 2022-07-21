@@ -5,13 +5,15 @@
     font-family: "IBM Plex Sans", sans-serif;;
 }
 
+$mainBg: #dcdfce;
 $mainColor: #02475b;
-$mainLightColor: #549fb4;
+$mainLightColor: #449bb3;
+$dimBoxShadow: rgba(15, 14, 14, 0.35) 0px 5px 15px;;
+$lightBg: #eaece7;
 
-
-@mixin flex($justify: space-between, $align: center) {
+@mixin flex($justify: space-between, $direction: row, $align: center) {
     display: flex;
+    flex-direction: $direction;
     justify-content: $justify;
     align-items: $align;
-    
   }

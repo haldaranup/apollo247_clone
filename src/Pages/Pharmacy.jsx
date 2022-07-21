@@ -1,4 +1,3 @@
-
 import React from "react";
 import AboutApollo from "../components/body/aboutApollo/AboutApollo";
 import BodyContent from "../components/body/BodyContent";
@@ -10,19 +9,17 @@ import SlideShow from "../components/body/slideShow/SlideShow";
 import Space from "../components/body/Space";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/nav/Navbar";
-import "./homepage.scss";
+import Products from "../components/pharmacy/products";
 
-const Home = () => {
+const Pharmacy = () => {
   return (
     <div className="container">
       <div className="main">
         <ContactLogo />
         <Navbar />
         <Space />
-        <BodyContent />
         <SlideShow />
-        <CovidCard />
-        <ProHealthCard />
+        <Products />
         <Resources />
         <AboutApollo />
         <Footer />
@@ -31,4 +28,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Pharmacy;

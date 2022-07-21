@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import { links } from "./navData.json";
 import "./navbar.scss";
 import { MdShoppingCart } from "react-icons/md";
-import { FaUserCircle } from "react-icons/fa";
+
+import WalkthroughPopover from "./Login";
 
 const Navbar = () => {
   return (
-    <>
+    <div className="navContainer">
       <nav className="navbar">
         <div className="left">
           <Link to="/" className="apolloLogo">
@@ -18,16 +19,16 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div className="right">
+        <div className="rightNavbar">
           <div className="links">
             {links.map((i) => {
               return (
                 <div>
-                  <Link to={"google.com"} className="navLinks" >
-                  <h5>{i.head}</h5>
-                  <div className="line"></div>
-                  <p>{i.paraOne}</p>
-                  <p>{i.paraTwo}</p>
+                  <Link to={"/"} className="navLinks">
+                    <h5>{i.head}</h5>
+                    <div className="line"></div>
+                    <p>{i.paraOne}</p>
+                    <p>{i.paraTwo}</p>
                   </Link>
                 </div>
               );
@@ -36,15 +37,18 @@ const Navbar = () => {
 
           <div className="navIcons">
             <div>
-              <MdShoppingCart size={"1.5rem"} />
+              <Link to={"/"}>
+                <MdShoppingCart size={"1.5rem"} />
+              </Link>
             </div>
+
             <div>
-              <FaUserCircle size={"3rem"} />
+              <WalkthroughPopover />
             </div>
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 

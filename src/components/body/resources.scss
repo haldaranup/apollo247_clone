@@ -1,0 +1,94 @@
+@import "../../../global.scss";
+
+.mainResources {
+  height: 50vh;
+  background-color: $lightBg;
+  //   border: 1px solid red;
+  .resourceContainer {
+      width: 90%;
+      background-color: #fff;
+      margin: auto;
+      // border: 1px solid red;
+      box-shadow: $dimBoxShadow;
+      height: 340px;
+      border-radius: 10px;
+
+    .bgImage {
+      height: 16vh;
+      width: 100%;
+      margin: auto;
+      border-radius: 10px 10px 0 0;
+      @include flex($justify: space-around);
+      color: #fff;
+      div {
+        h2 {
+          font-size: 1.8rem;
+          font-weight: 600;
+        }
+        p {
+          font-weight: 500;
+        }
+      }
+
+      background-image: url("https://newassets.apollo247.com/images/ecosystem-banner.jpg");
+    }
+    .midResourcesContainer {
+    //   border: 1px solid red;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 200px;
+      .midResource {
+        @include flex($justify: space-around);
+        .midTextContent {
+          h6 {
+            color: green;
+            font-weight: 600;
+          }
+          p {
+            color: #869b8c;
+          }
+        }
+      }
+
+      .dottedLine {
+        width: 90%;
+        margin: 0 auto;
+        div {
+          border-bottom: 2px dotted gray;
+        }
+      }
+
+      .lastResource {
+        color: $mainColor;
+        div {
+          p {
+            font-size: 0.75rem;
+            margin: 0 20px;
+          }
+        }
+      }
+    }
+    .resouceBoxContainer {
+      @include flex($justify: space-around);
+      .resourceBox {
+        width: 280px;
+        height: 45px;
+        border: 1px solid $mainColor;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        div {
+          img {
+            height: 30px;
+          }
+          p {
+            font-size: 0.8rem;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

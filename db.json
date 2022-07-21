@@ -1,0 +1,54 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "img": "https://newassets.apollo247.com/pub/media/catalog/product/cache/resized/100x/7/1/7121_1.png",
+            "name": "Omron",
+            "price": 2110
+        },
+        {
+            "id": 2,
+            "img": "https://newassets.apollo247.com/pub/media/catalog/product/cache/resized/100x/o/n/one0174_-_sps_amazon_imgs1.jpg",
+            "name": "One Touch",
+            "price": 875
+        },
+        {
+            "id": 3,
+            "img": "https://newassets.apollo247.com/pub/media/catalog/product/cache/resized/100x/a/c/acc0008.jpg",
+            "name": "Accu",
+            "price": 858
+        },
+        
+        {
+            "id": 4,
+            "img": "https://newassets.apollo247.com/pub/media/catalog/product/cache/resized/100x/i/m/img_20210116_122912__front__digital_thermometer_flexible.jpg",
+            "name": "Thermometer",
+            "price": 90
+        },
+        {
+            "id": 5,
+            "img": "https://newassets.apollo247.com/pub/media/catalog/product/cache/resized/100x/v/i/vic0377_10_.jpg",
+            "name": "Vicks",
+            "price": 144
+        },
+        {
+            "id": 6,
+            "img": "https://newassets.apollo247.com/pub/media/catalog/product/cache/resized/100x/o/d/odo0041_2.jpg",
+            "name": "Odomos",
+            "price": 82
+        },
+        {
+            "id": 7,
+            "img": "https://newassets.apollo247.com/pub/media/catalog/product/cache/resized/100x/m/a/mamypoko-extra-absorb-pants-m-84-count-7-12-kg-1-20220422.jpg",
+            "name": "MammyPoko",
+            "price": 874
+        },
+        {
+            "id": 8,
+            "img": "https://newassets.apollo247.com/pub/media/catalog/product/cache/resized/100x/s/e/seb0117_1.jpg",
+            "name": "Sunbet",
+            "price": 345
+        }
+        
+    ]
+}
