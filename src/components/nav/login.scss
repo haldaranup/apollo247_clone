@@ -1,0 +1,14 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    p{
+        color: white;
+    }
+    div {
+        Input {
+            margin-bottom: 20px;
+            color: white;
+        }
+    }
+}
