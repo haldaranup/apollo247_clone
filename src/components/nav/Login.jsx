@@ -29,7 +29,7 @@ function WalkthroughPopover() {
   const [password, setPassword] = useState("");
   const dispatch = useDispatch();
 
-  const isAuth = useSelector(state => state.auth.isAuth)
+  const isAuth = useSelector((state) => state.auth.isAuth);
 
   const login = (payload) => {
     dispatch(loginRequest());
@@ -112,5 +112,4 @@ function WalkthroughPopover() {
     </Popover>
   );
 }
-
 export default WalkthroughPopover;
