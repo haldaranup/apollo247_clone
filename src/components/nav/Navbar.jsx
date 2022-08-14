@@ -41,7 +41,6 @@ const Navbar = () => {
                 <MdShoppingCart size={"1.5rem"} />
               </Link>
             </div>
-
             <div>
               <WalkthroughPopover />
             </div>
